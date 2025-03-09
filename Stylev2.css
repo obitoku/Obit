@@ -1,0 +1,151 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Warna dasar */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #1f1f1f;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Navigasi */
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00c3ff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0099;
+}
+
+/* Bagian Umum */
+.section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    background: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s;
+}
+
+.section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    font-size: 2em;
+    color: #00c3ff;
+    margin-bottom: 20px;
+}
+
+/* Biodata */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #00c3ff;
+    display: block;
+    margin: 20px auto;
+}
+
+.bio-list {
+    text-align: left;
+    display: inline-block;
+}
+
+.bio-list li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Formulir Kontak */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00c3ff;
+    border-radius: 5px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background: linear-gradient(45deg, #00c3ff, #ff0099);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff0099, #00c3ff);
+    transform: scale(1.05);
+}
+
+/* Pesan Konfirmasi */
+#responseMessage {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #00ff99;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: #1f1f1f;
+    font-size: 1em;
+    color: #bbbbbb;
+}
