@@ -1,0 +1,74 @@
+<!<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website sederhana menggunakan Acode">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Acode">
+    <meta name="author" content="Nama Kamu">
+    <title>Website Pertamaku</title>
+    
+    <!-- Favicon (ikon kecil di tab browser) -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tambahan Font dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- JavaScript yang bisa jalan saat halaman dimuat -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Halaman berhasil dimuat!");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Ini adalah website sederhana yang pertama gua buat awal nya ge penasaran buat web tu gmna dan yap gw nyoba skrng,padahal gw itu masih anak smp.</p>
+            <img src="https://img12.pixhost.to/images/795/574376149_imgtmp.jpg" alt="Gambar contoh" width="300">
+        </section>
+
+<section id="kontak">
+    <h2>Kontak Saya</h2>
+    <p>Jika ingin menghubungi saya, silakan isi formulir di bawah ini atau kirim email ke:</p>
+    <p><b>Email:</b> <a href="papaa3979@gmail.com">papaa3979@gmail.com</a></p>
+    <p><b>WhatsApp:</b> <a href="https://wa.me/6285797043816" target="_blank">+62 857-9704-3816</a></p>
+
+    <!-- Formulir Kontak -->
+    <form action="proses_kontak.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 WebsiteKu | Dibuat dengan ❤️</p>
+    </footer>
+
+    <!-- Tambahan JavaScript untuk interaksi -->
+    <script src="script.js"></script>
+</body>
+</html>
